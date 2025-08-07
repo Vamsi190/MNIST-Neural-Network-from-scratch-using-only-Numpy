@@ -52,6 +52,14 @@ are used to train this two layered Neural Network.
 
     -Then it proceeds to pass the results  forward to the next layer.
 
+- `Back Propogation`
+
+    -Back propogation helps us understand the errors that are contributed by the weights and
+    biases of the neural network.
+
+    
+
+
     
 
 
