@@ -1,9 +1,12 @@
 # MNIST-Neural-Network-from-scratch-using-only-Numpy
 This a two layered Neural Network created using math and use of `numpy` as a package
 
+Here is the diagram of the two layered Neural Network built for the digit recognizer:
+![Two-layered Neural Network for digit recognition](Images/nn.jpg)
+
 The two layered neural network consits of the following:
 - `Input layer` or the 0th layer
-- `Hidden layer` or the first layer
+- `Hidden layer/'s` or the first layer
 - `Output layer` - Y.
 
 The objective of this Neural network is to train it on a handwritten grayscale digit images 
@@ -39,7 +42,7 @@ are used to train this two layered Neural Network.
 
 - Now there are parts of training and building this neural network, the following was done to train and build the network :
 
-- `Forward Propogation`
+- `Forward Propogation :`
 
     -On a high level, forward propogation in this case is for  the    network to make a guess.
     Like taking an image and run it through the network to compute the expected output and compare.
@@ -52,10 +55,17 @@ are used to train this two layered Neural Network.
 
     -Then it proceeds to pass the results  forward to the next layer.
 
-- `Back Propogation`
+- `Back Propogation :`
 
-    -Back propogation helps us understand the errors that are contributed by the weights and
-    biases of the neural network.
+    Backpropagation is the process of calculating the gradient of the loss function with respect to each weight in a neural network by moving backward from the output layer to the input layer.
+
+    It is used to update weights of the network using these gradients to minimize the error during training.
+
+    Back propogation helps us understand the errors that are contributed by the weights and biases of the neural network.
+
+    In this process we compute the gradients of the loss with respect to the parameter of the network.
+
+    With help of this we are computing the gradeint descent to update the weights and biases of the created neural network.
 
     
 
